@@ -10,9 +10,13 @@
 		537F34DC87DEA179623461DAC1E947B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		58A7E9F1E046CDBCA5ADEA89BA58CFDE /* JHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C849B852608B2F6E10E499284E544B16 /* JHome-dummy.m */; };
 		6F65367D1FA7CD9359E135FBAF621583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F872A36256CB75400670961 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F872A32256CB75400670961 /* .gitkeep */; };
+		6F872A38256CB75400670961 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F872A35256CB75400670961 /* .gitkeep */; };
+		6F872A41256CB77400670961 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F872A3E256CB77400670961 /* HomeViewController.h */; };
+		6F872A42256CB77400670961 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F872A3F256CB77400670961 /* HomeViewController.m */; };
+		6F872A43256CB77400670961 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F872A40256CB77400670961 /* HomeViewController.xib */; };
 		7AF3BBB622990E918984DF629583A716 /* Pods-JHome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FBAA034E944B6C301E3DF321106A0D /* Pods-JHome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD39417761FBBCDE2DEFD95DE01C429 /* JHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F488CBC155E400C985BA2C7F183C1A /* JHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97A83C9F9B64FAAB3C94E7D73BB1FB43 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE347FF7CEB7E0FFB864E97074908A7 /* ReplaceMe.m */; };
 		9A1EAE6EE1BD9803C3439A1F90C13F36 /* Pods-JHome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A26E893D97067AFDE623BEE53CD37A65 /* Pods-JHome_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,28 +33,32 @@
 /* Begin PBXFileReference section */
 		01470E690881FF31A4F4BB87EFEA82C5 /* Pods-JHome_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHome_Tests-Info.plist"; sourceTree = "<group>"; };
 		0FC12BFEFE204E9350399CEF90B01031 /* Pods-JHome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		13D02B84EBDCCB86D0A1D48029171783 /* JHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13D02B84EBDCCB86D0A1D48029171783 /* JHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18652B4A0DA739D614F47E44C8E0E4B3 /* Pods-JHome_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHome_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2ABB2F69DB1E7C8B180C7DE1ABF0C7E5 /* Pods-JHome_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHome_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		537FC8698A35A35E3F6900F7BD438EFB /* Pods-JHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		546BFC1D9C70025862DAA6F3F14E6EE1 /* Pods-JHome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JHome_Tests.modulemap"; sourceTree = "<group>"; };
-		5486F378B6EDAC0A5D71D4282A458352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5486F378B6EDAC0A5D71D4282A458352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		59A9056AD15B119C16D8D385BE1173AE /* JHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHome.release.xcconfig; sourceTree = "<group>"; };
 		6F463259396C11EC8D6132015AFBF234 /* JHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHome-prefix.pch"; sourceTree = "<group>"; };
+		6F872A32256CB75400670961 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F872A35256CB75400670961 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F872A3E256CB77400670961 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6F872A3F256CB77400670961 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6F872A40256CB77400670961 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BE347FF7CEB7E0FFB864E97074908A7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JHome/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		92F488CBC155E400C985BA2C7F183C1A /* JHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHome-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC0F2963A636A35BF79600969822787 /* Pods_JHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JHome_Tests.framework; path = "Pods-JHome_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC0F2963A636A35BF79600969822787 /* Pods_JHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC12DE942F64F4AD6B30A427847561A /* JHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHome.debug.xcconfig; sourceTree = "<group>"; };
 		A26E893D97067AFDE623BEE53CD37A65 /* Pods-JHome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHome_Tests-dummy.m"; sourceTree = "<group>"; };
 		C0FBAA034E944B6C301E3DF321106A0D /* Pods-JHome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JHome_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C849B852608B2F6E10E499284E544B16 /* JHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHome-dummy.m"; sourceTree = "<group>"; };
 		CE592E9086694BBBDCDFDAEDCCD95BCC /* Pods-JHome_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHome_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DDEA37F7D17CC9AF06FFE743C38C7F02 /* JHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JHome-Info.plist"; sourceTree = "<group>"; };
-		EB71C666437DD4595479D5F9EE5584F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB71C666437DD4595479D5F9EE5584F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC558B17DB2A8B0DFDECEF0D8EF37888 /* JHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JHome.modulemap; sourceTree = "<group>"; };
-		F668F8E1A89FE84D22100CB1CEA02696 /* JHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JHome.framework; path = JHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F668F8E1A89FE84D22100CB1CEA02696 /* JHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6F872A31256CB75400670961 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F872A32256CB75400670961 /* .gitkeep */,
+				6F872A3E256CB77400670961 /* HomeViewController.h */,
+				6F872A3F256CB77400670961 /* HomeViewController.m */,
+				6F872A40256CB77400670961 /* HomeViewController.xib */,
+			);
+			name = Classes;
+			path = JHome/Classes;
+			sourceTree = "<group>";
+		};
+		6F872A34256CB75400670961 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6F872A35256CB75400670961 /* .gitkeep */,
+			);
+			name = Assets;
+			path = JHome/Assets;
+			sourceTree = "<group>";
+		};
 		8B3CBBD6DEC0FDB089894B8B6E53539E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +191,8 @@
 		CF83CBE5760EE0F6E0FFF6778D81DCAE /* JHome */ = {
 			isa = PBXGroup;
 			children = (
-				7BE347FF7CEB7E0FFB864E97074908A7 /* ReplaceMe.m */,
+				6F872A34256CB75400670961 /* Assets */,
+				6F872A31256CB75400670961 /* Classes */,
 				0FB8BC2F9C9F2CD0AB9D61C8C6DD9A8A /* Pod */,
 				0B501DA2D9F3AB6DA57AF6DC8B51AB4D /* Support Files */,
 			);
@@ -185,6 +215,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F872A41256CB77400670961 /* HomeViewController.h in Headers */,
 				8CD39417761FBBCDE2DEFD95DE01C429 /* JHome-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F872A36256CB75400670961 /* .gitkeep in Resources */,
+				6F872A38256CB75400670961 /* .gitkeep in Resources */,
+				6F872A43256CB77400670961 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A7E9F1E046CDBCA5ADEA89BA58CFDE /* JHome-dummy.m in Sources */,
-				97A83C9F9B64FAAB3C94E7D73BB1FB43 /* ReplaceMe.m in Sources */,
+				6F872A42256CB77400670961 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +401,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -455,7 +488,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JHome/JHome-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JHome/JHome-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JHome/JHome.modulemap";
 				PRODUCT_MODULE_NAME = JHome;
@@ -486,7 +519,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JHome_Tests/Pods-JHome_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JHome_Tests/Pods-JHome_Tests.modulemap";
@@ -518,7 +551,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JHome/JHome-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JHome/JHome-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JHome/JHome.modulemap";
 				PRODUCT_MODULE_NAME = JHome;
@@ -548,7 +581,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JHome_Tests/Pods-JHome_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JHome_Tests/Pods-JHome_Tests.modulemap";

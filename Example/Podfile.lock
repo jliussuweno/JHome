@@ -1,0 +1,16 @@
+PODS:
+  - JHome (0.1.0)
+
+DEPENDENCIES:
+  - JHome (from `../`)
+
+EXTERNAL SOURCES:
+  JHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JHome: 85617e9a5802708c79425f59ae245bf0e9d6824b
+
+PODFILE CHECKSUM: 4c47830ef798fa6d23fdf1604e530a3d9f2d877b
+
+COCOAPODS: 1.10.0

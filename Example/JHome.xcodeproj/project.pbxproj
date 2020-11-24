@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40A256663BAC23631C02B65B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40A256663BAC23631C02B65B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,8 @@
 		C047BDC4B139C02516D23C28 /* Pods_JHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6963CF1DDA36119B68AFF4 /* Pods-JHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHome_Tests.release.xcconfig"; path = "Target Support Files/Pods-JHome_Tests/Pods-JHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3ED351AC06C15C6F4057175 /* Pods-JHome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHome_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JHome_Tests/Pods-JHome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E0D5F3991D68A8B06255EB64 /* JHome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JHome.podspec; path = ../JHome.podspec; sourceTree = "<group>"; };
-		FE1F61D710A6C739A2B4FD0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0D5F3991D68A8B06255EB64 /* JHome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHome.podspec; path = ../JHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE1F61D710A6C739A2B4FD0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				D3ED351AC06C15C6F4057175 /* Pods-JHome_Tests.debug.xcconfig */,
 				CE6963CF1DDA36119B68AFF4 /* Pods-JHome_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JHome_Tests' do
+  pod 'JHome', :path => '../'
+  
+  
+end
